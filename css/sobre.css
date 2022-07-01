@@ -20,7 +20,7 @@ figure{
     border:1px solid lightgrey;
 }
 figcaption{
-    margin-top: 10px;
+    margin-top:10px;
 }
 .matriz-musicdot{
     width:550px;
@@ -32,5 +32,37 @@ figcaption{
     float:right;
 }
 figure img{
-    width: 100%;
+    width:100%;
+}
+.contact__subtitle{
+    display:inline;
+}
+.contact__section{
+    display:inline-block;
+    vertical-align:top;
+    margin-left:16px;
+}
+.contact__section--tel{
+    margin-left:32px;
+}
+.contact__info{
+    margin:16px 0 24px;
+    padding-left:32px;
+}
+.contact__info-title,.contact__info-describe{
+    display:inline;
+}
+.contact__info-describe{
+    margin-left:10px;
+}
+.footer{
+    padding:1.75em 0;
+    font-size:1.1rem;
+}
+.footer__logo{
+    width:6em;
+}
+.footer__copyright{
+    display:inline;
+    margin-left:1em;
 }
