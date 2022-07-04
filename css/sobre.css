@@ -88,13 +88,26 @@ figure img{
     .familia-tupfeln{
         width:275px;
         float:none;
-        margin-left:auto;
-        margin-right:auto;
+        margin:0 auto;
     }
 }
 @media (max-width: 446px){
     .contact__subtitle{
-        display:inline-block;
-        width:100%;
+        display:block;
+        margin-bottom:0;
+    }
+    .contact__info{
+        padding-left:5px;
+        border-left:2px solid lightgrey;
+        font-size:0.92em;
+    }
+    .footer{
+        font-size:0.92em;
+    }
+}
+@media (max-width: 342px){
+    .contact__info-describe{
+        display:block;
+        margin-left:1em;
     }
 }
