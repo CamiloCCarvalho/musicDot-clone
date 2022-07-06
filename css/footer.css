@@ -44,12 +44,12 @@
         font-size:1rem;
     }
     .footer__section--about,
-    .footer__section--curses,
+    .footer__section--courses,
     .footer__section--links,
     .footer__section--newsletter{
         width:45%;
     }
-    .footer__section--curses{
+    .footer__section--courses{
         order:1;
         margin:0;
     }

@@ -1,11 +1,14 @@
-header{
+.header{
+    position:absolute;
+    top:0;
+    width:100%;
+    box-sizing:border-box;
     color:#fff;
     text-align:center;
     font-size:0.6rem;
     font-weight:bold;
     text-transform:uppercase;
     letter-spacing:0.23em;
-    background:#2D5377;
 }
 .header__logo{
     padding:1.5em 0;
@@ -40,12 +43,12 @@ header{
     }
 }
 @media (min-width:770px){
-    .header__item-menu-matricular{
+    .header__item-menu-register{
         margin-left:1.42em;
         border-radius:6px;
         background:#e93d50;
     }
-    .header__item-menu-matricular a{
+    .header__item-menu-register a{
         padding:1.8em 3.5em;
     }
 }
