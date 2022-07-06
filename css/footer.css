@@ -1,0 +1,67 @@
+.footer{
+    padding:2em 5%;
+    text-align:center;
+    font-size:0.7rem;
+}
+.footer__logo{
+    width:11.25em;
+    margin-bottom:1em;
+}
+.footer__list-social-medias{
+    display:flex;
+    justify-content:center;
+    margin-top:1em;
+}
+.footer__info-company{
+    line-height:1.5;
+}
+.footer__section + .footer__secion{
+    margin-top:2em;
+}
+.footer__item-social-medias{
+    width:2.62em;
+    margin:0 .25em;
+}
+.footer__item-social-medias img{
+    width:100%;
+}
+.footer__title{
+    margin-bottom:1em;
+    font-size:1.45em;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.footer__item-list{
+    font-weight:500;
+    margin:0.625em 0;
+}
+@media(min-width:640px){
+    .footer{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        font-size:1rem;
+    }
+    .footer__section--about,
+    .footer__section--curses,
+    .footer__section--links,
+    .footer__section--newsletter{
+        width:45%;
+    }
+    .footer__section--curses{
+        order:1;
+        margin:0;
+    }
+    .footer__section--links{
+        order:2;
+        margin:0;
+    }
+    .footer__section--about{
+        order:3;
+        margin-top:2em;
+    }
+    .footer__section--newsletter{
+        order:4;
+        margin-top:2em;
+    }
+}
