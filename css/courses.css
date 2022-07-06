@@ -84,28 +84,28 @@
     background-image:url(../img/icone-teclado-piano.svg);
 }
 .course--guitars{
-    background-image:url(../img/icone-violao-guitarra.svg);
+    background-image:url(../img/icones-violao-guitarra.svg);
 }
 .course--bass{
-    background-image:url(../img/icone-baixo.svg);
+    background-image:url(../img/icones-baixo.svg);
 }
 .course--drums{
-    background-image:url(../img/icone-bateria.svg);
+    background-image:url(../img/icones-bateria.svg);
 }
 .course--percussion{
-    background-image:url(../img/icone-percussao.svg);
+    background-image:url(../img/icones-percussao.svg);
 }
 .course--sing{
-    background-image:url(../img/icone-canto.svg);
+    background-image:url(../img/icones-canto.svg);
 }
 .course--audio{
-    background-image:url(../img/icone-audio.svg);
+    background-image:url(../img/icones-audio.svg);
 }
 .course--theory{
-    background-image:url(../img/icone-teoria.svg);
+    background-image:url(../img/icones-teoria.svg);
 }
 .course--wind{
-    background-image:url(../img/icone-sopro.svg);
+    background-image:url(../img/icones-sopro.svg);
 }
 .course--string{
     background-image:url(../img/icone-cordas.svg)
@@ -177,8 +177,8 @@
         order:-1;
         grid-area:1/1span 2/2;
         padding-top:6rem;
-        background-size:6rem 6rem;
-        background-position:top 3.6rem center;
+        background-size:5rem 5rem;
+        background-position:top 1.0rem center;
     }
     .courses__list .course--underscore2{
         order:-1;
