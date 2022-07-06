@@ -35,7 +35,7 @@
     font-weight:500;
     margin:0.625em 0;
 }
-@media(min-width:640px){
+@media(min-width:640px) and (max-width:1200px){
     .footer{
         display:flex;
         flex-wrap:wrap;
@@ -63,5 +63,25 @@
     .footer__section--newsletter{
         order:4;
         margin-top:2em;
+    }
+}
+@media(min-width:1200px){
+    .footer{
+        display:flex;
+        justify-content:space-between;
+        font-size:0.85rem;
+        text-align:left;
+    }
+    .footer__title{
+        font-size:1em;
+    }
+    .footer__list-social-medias{
+        justify-content:left;
+    }
+    .footer__section{
+        margin-top:0;
+    }
+    .footer__section + .footer__section {
+        margin-left:2em;
     }
 }
