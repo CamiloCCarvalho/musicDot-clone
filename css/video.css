@@ -54,4 +54,12 @@
         width:5rem;
         height:5rem;
     }
+    .texts__title{
+        font-size:1.9rem;
+    }
+}
+@media(min-width:1600px){
+    .video--desktop{
+        height:26.8rem;
+    }
 }
