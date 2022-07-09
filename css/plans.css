@@ -164,6 +164,9 @@
         font-size:.9rem;
         font-weight:600;
     }
+    .plans__card{
+        grid-column-end:2;
+    }
 }
 @media(min-width:1200px){
     .plans__title{
@@ -174,9 +177,13 @@
         height:50px;
         font-size:1rem;
         width:10rem;
-        transform:translate(-50%, -45%);
+        transform:translate(-50%, -15%);
+    }
+    .plan--highlight > p{
+        margin-top:10px;
     }
     .plans__card{
         margin-bottom: 3rem;
+        grid-column-end:2;
     }
 }
