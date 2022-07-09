@@ -1,0 +1,182 @@
+.plans{
+    background-image: url(../img/planos-background-mobile.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:1.8rem;
+    display:grid;
+    justify-items:center;
+    position:relative;
+}
+.plans::before{
+    content: "";
+    width:81%;
+    height:.1rem;
+    background-color:#e93d50;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%,0);
+}
+.plans__title{
+    font-size:.85rem;
+    font-weight:700;
+    margin-bottom:2rem;
+}
+.plans__card{
+    background-color:#f76148;
+    border-radius:8px;
+    margin-bottom:1.3rem;
+    color:#fff;
+    margin-top:2rem;
+    padding:4rem 1rem 1rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    box-shadow: 0 0 .8rem .1rem rgba(0,0,0,.2);
+    background-repeat:no-repeat;
+    background-size:1.7rem;
+    background-position:top 1.5rem center;
+}
+.card--annual{
+    background-image:url(../img/simbolo-musidot-branco.svg);
+}
+.card--semester{
+    background-image:url(../img/simbolo-musidot-dark.svg);
+}
+.plan__title{
+    margin:8px 0;
+}
+.plans__card p + p{
+    font-weight:300;
+    margin-top:.2rem;
+    letter-spacing:1.5px;
+}
+.plan__title, .plan__title + p{
+    font-size:1rem;
+    font-weight:500;
+}
+.value--highlight{
+    font-size:2rem;
+    font-weight:700;
+}
+.plans__card span{
+    font-weight:500;
+}
+.cards__button{
+    color:#f76148;
+    text-transform:uppercase;
+    letter-spacing:1.8px;
+    font-weight:600px;
+    border-radius:8px;
+    margin-top:.8rem;
+    padding:1rem 2rem;
+    background-color:#fff;
+    box-shadow:0 0 .8rem .1rem rgba(0,0,0, .2);
+}
+.card--annual{
+    position:relative;
+    z-index:2;
+}
+.plan--highlight{
+    color:#f76148;
+    font-weight:600px;
+    text-transform:uppercase;
+    letter-spacing:1.1px;
+    width:8rem;
+    padding: 4rem 0 .8rem;
+    border-radius:5px;
+    box-shadow: 0 0 .8rem .05rem rgba(0,0,0, .2);
+    background-color:#fff;
+    position:absolute;
+    transform:translate(-50%, -05%);
+    z-index:1;
+}
+.plan--highlight >p{
+    margin-top:-50px;
+}
+.card--annual p + p, .card--semester p + p{
+    margin-bottom:1rem;
+}
+.plans>p{
+    width:250px;
+    font-size:.6rem;
+    font-weight:600;
+    line-height:18px;
+}
+.plans a{
+    font-weight:700;
+}
+@media(min-width:768px){
+    .plans{
+        grid-template-columns: 20rem 20rem;
+        grid-template-areas:
+        "header header"
+        "card1 card1"
+        "footer footer";
+        gap:1rem;
+        justify-content:center;
+        padding-bottom:2rem;
+        background-image:url(../img/planos-background.png);
+        background-size:cover;
+    }
+    .plans__title{
+        grid-area:header;
+    }
+    .card__planannual{
+        grid-area:card2;
+    }
+    .card--semester{
+        grid-area:card1;
+    }
+    .plans__payment{
+        grid-column-end:span 2;
+    }
+    .plans--morebuy{
+        font-size:.8rem;
+    }
+    .plans__card{
+        padding:6rem 2rem 2rem;
+        justify-content:space-between;
+        background-size:2.5rem;
+        background-position:top 2.5rem center;
+    }
+    .plans__card img{
+        width:2.5rem;
+    }
+    .plan__title, .plan__title + p{
+        font-size:1.4rem;
+        font-weight:500;
+    }
+    .value--highlight{
+        font-size:2.6rem;
+        font-weight:700;
+    }
+    .plan--lighlight{
+        font-size:.6rem;
+    }
+    .cards__button{
+        font-size:1.1rem;
+        transition:.25s;
+    }
+    .plans>p{
+        font-size:.9rem;
+        font-weight:600;
+    }
+}
+@media(min-width:1200px){
+    .plans__title{
+        font-size:1.2rem;
+    }
+    .plan--highlight{
+        padding-top:.5rem;
+        height:50px;
+        font-size:1rem;
+        width:10rem;
+        transform:translate(-50%, -45%);
+    }
+    .plans__card{
+        margin-bottom: 3rem;
+    }
+}
