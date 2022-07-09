@@ -91,7 +91,7 @@
 }
 @media(min-width:1200px){
     .call__app{
-        grid-template-columns:1fr 12rem 12rem;
+        grid-template-columns:1fr 12rem;
     }
     .app__title{
         font-size:1.8rem;
