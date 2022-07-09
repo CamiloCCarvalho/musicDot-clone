@@ -1,0 +1,80 @@
+.benefits{
+    text-align:center;
+    margin-bottom:2rem;
+    padding:0 10%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.benefits__title{
+    font-size:1rem;
+    font-weight:700;
+}
+.benefits__list li{
+    padding-top:5.5rem;
+    background-repeat:no-repeat;
+    background-size:4rem 4rem;
+    background-position:top 20px center;
+}
+.benefit--foryou{
+    background-image:url(../img/icone-beneficios-tudo-para-voce.svg);
+}
+.benefit--quests{
+    background-image:url(../img/icone-beneficios-nenhuma-duvida.svg);
+}
+.benefit--didactics{
+    background-image:url(../img/icone-beneficios-didatica-cuidadosa.svg);
+}
+.benefit--online{
+    background-image:url(../img/icone-beneficios-online.svg);
+}
+.benefit__title{
+    font-size:.8rem;
+    font-weight:600;
+    margin-top:1rem;
+    margin-bottom:.2rem;
+}
+.benefit__text{
+    line-height:1rem;
+}
+@media(min-width:768px){
+    .benefits{
+        margin-bottom:3.7rem;
+    }
+    .benefits__list{
+        display:grid;
+        grid-template-columns:17.5rem 17.5rem;
+        gap:1rem;
+    }
+    .benefits__title{
+        margin-bottom:1rem;
+    }
+    .benefit__title{
+        font-size:1.1rem;
+    }
+    .benefit__text{
+        font-size:.8rem;
+    }
+}
+@media(min-width:1200px){
+    .benefits__title{
+        font-size:1.3rem;
+    }
+    .benefits__list{
+        gap:1.3rem;
+        grid-template-columns:22.5rem 22.5rem;
+    }
+    .benefits__list li{
+        padding-top:7.25rem 7.25rem;
+        background-size:6rem 6rem;
+    }
+    .benefit__title{
+        font-size:1.2rem;
+        margin-top:2.6rem;
+        margin-bottom:.6rem;
+    }
+    .benefit__text{
+        font-size:.9rem;
+        line-height:1.2rem;
+    }
+}
