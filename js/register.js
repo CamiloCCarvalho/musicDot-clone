@@ -14,8 +14,8 @@ function addCourse(checkbox){
         totalCourses--
         totalHours -= parseInt(checkbox.value)
     }
-    $tdTotalCourses.textContent = totalCourses + 'curso(s)'
-    $tdTotalOfHours.texdtContent = totalHours + 'h'
+    $tdTotalCourses.innerHTML = Math.abs(totalCourses) + ' curso(s)'
+    $tdTotalOfHours.textContent = Math.abs(totalHours) + ' hs'
 }
 $buttonConfirm.onclick = confirmRegister
 function confirmRegister(){
